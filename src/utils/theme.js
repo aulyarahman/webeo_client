@@ -1,3 +1,5 @@
+import Background from '../Background.png'
+
 const themeFile = {
     palette: {
         primary: {
@@ -37,7 +39,7 @@ const themeFile = {
     },
 
 
-    overrides: {
+      overrides: {
       MUIDataTable: {
         responsiveScroll: {
           maxHeight: "580px"
@@ -47,6 +49,14 @@ const themeFile = {
       MUIDataTableBodyCell: {
         root: {
 
+        }
+      },
+      MuiCssBaseline: {
+        "@global": {
+          body: {
+            backgroundImage:
+              `url(${Background})`,
+          }
         }
       }
     }
