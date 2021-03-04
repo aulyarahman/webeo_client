@@ -18,7 +18,7 @@ import LoginSpg from './pages/LoginSpg';
 import CardLogin from './components/CardLogin';
 import PageUserNotFound from './components/UserInfo/404';
 
-import DialogImportFromExcel from './components/DialogImport';
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 
 
@@ -32,6 +32,7 @@ const App = () => {
     return ( 
         <Provider>
         <MuiThemeProvider theme={theme}>
+        <CssBaseline />
             <Router>
                 <Switch>
                     <Route exact path="/" component={UserPage} />
