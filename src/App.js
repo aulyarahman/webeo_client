@@ -40,7 +40,6 @@ const App = () => {
                     <Route exact path="/notfound" component={PageUserNotFound} />
                     <Route exact path="/login/admin" component={CardLogin} />
                     <Route exact path="/login/spg" component={LoginSpg} />
-                    <Route exact path="/dialog" component={DialogImportFromExcel} />
                 </Switch>
             </Router>
         </MuiThemeProvider>
