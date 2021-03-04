@@ -1,0 +1,14 @@
+USING REACT JS
+
+++++
+
+before usage
+
+++++++
+
+npm install
+
+
++++
+
+npm start
