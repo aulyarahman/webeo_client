@@ -109,7 +109,7 @@ const FormEdit = () => {
            .catch(err => {
             const error = err.response.data.error
             if(error.indexOf("kosong") > -1)  dispatch({ type: SET_ERRORS, value: 'Data Tidak Boleh Kosong'})
-            if(error.indexOf("Nomor Tidak Valid") > -1){
+            else if(error.indexOf("Nomor Tidak Valid") > -1){
               dispatch({ type: SET_ERRORS, value: 'No Handphone tidak valid !'})
             }
             else {
