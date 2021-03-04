@@ -126,7 +126,8 @@ const PopUpAlert = () => {
               boxShadow: 'none',
               color: '#fff',
               borderRadius: '50px',
-              height: '100%'
+              height: 'auto',
+              width: '100%'
             },
           }}
       >
