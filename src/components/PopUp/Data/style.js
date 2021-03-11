@@ -4,8 +4,8 @@ import styled from 'styled-components';
 
 
 export const IMG = styled.img`
-    width: 70px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     margin-top: -30px;
 
 
