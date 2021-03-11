@@ -70,7 +70,7 @@ const UserPage = ({ style, styleTypo }) => {
               <Grid item sm />
 
                          <Typography className={classes.pageTitle}>
-                            <S.IMG src="/asset_hipmi/Logo.png" />
+                            <S.IMG src="/asset_hipmi/newlogo.png" />
                           </Typography>
 
                         <Typography variant="h1" className={classes.pageTitle2} style={styleTypo}>
